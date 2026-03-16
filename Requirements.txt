@@ -1,0 +1,4 @@
+torch
+prometheus_client
+fastapi
+uvicorn
