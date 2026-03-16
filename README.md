@@ -8,9 +8,9 @@ A Deep Q-Network agent trained to hunt a moving target in a 2D grid world. Built
 
 ## Evaluation Results
 
-| Episodes | Win Rate | Spider Deaths | Timeouts |
-| :---: | :---: | :---: | :---: |
-| **10,000** | **84.09%** | **15.89%** | **0.02%** |
+| Episodes   | Win Rate   | Spider Deaths | Timeouts  |
+| :--------: | :--------: | :-----------: | :-------: |
+| **10,000** | **84.09%** |  **15.89%**   | **0.02%** |
 
 ---
 
@@ -32,10 +32,10 @@ python eval.py
 docker compose up --build
 ```
 
-| Service | URL |
-|---|---|
-| Prometheus | http://localhost:9090 |
-| Grafana | http://localhost:3000 (password: `flyq`) |
+| Service    | URL                                       |
+| :--------- | :---------------------------------------- |
+| Prometheus | http://localhost:9090                     |
+| Grafana    | http://localhost:3000 (name: `admin` password: `flyq`)  |
 
 ---
 
